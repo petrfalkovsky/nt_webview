@@ -41,7 +41,7 @@ class _WebViewAppState extends State<WebViewApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TN Group'),
+        title: const Text('Local TN-Group'),
         actions: [
           NavigationControls(controller: controller),
           // Menu(controller: controller),
